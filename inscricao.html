@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPOTEC 2023</title>
+    <link rel="stylesheet" href="inscricao.css">
+</head>
+
+<body>
+    <div class="barra-superior">
+        <div class="menu-superior"><img src="./imagem/logo-if-superior.png" style="width: 200px; height: 80px;"></div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="inicio.html">Início</a>
+                </li>
+                <li>
+                    <a href="agenda.html">Agenda</a>
+                </li>
+                <li>
+                    <a href="inscricao.html">Inscreva-se</a>
+                </li>
+                <li>
+                    <a href="palestrantes.html">Palestrantes</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <br>
+            <h1>EXPOTEC 2023</h1>
+            <h1>Tema: Construindo Futuros: Ciência, Tecnologia, Diversidade Humana e Sustentabilidade</h1>
+            </br>
+        </header>
+        <br>
+
+        <div class="form">
+            <form action="">
+                <fieldset>
+                    <legend><b>Inscreva-se</b></legend>
+                    <br>
+                    <div class="inputForm">
+                        <input type="text" name="nome" id="nome" class="inputNome" required>
+                        <label for="nome" class="labelNome">Nome completo: </label>
+                    </div>
+                    </br>
+
+                    <br>
+                    <div class="inputForm">
+                        <input type="text" name="matricula" id="matricula" class="inputNome" required>
+                        <label for="matricula" class="labelNome">Matrícula: </label>
+                    </div>
+                    </br>
+
+                    <br>
+                    <div class="inputForm">
+                        <input type="email" name="email" id="email" class="inputNome" required>
+                        <label for="email" class="labelNome">Email: </label>
+                    </div>
+                    </br>
+
+                    <br>
+                    <div class="inputForm">
+                        <input type="tel" name="telefone" placeholder="(DDD) xxxxx-xxxx" id="telefone" class="inputNome" required>
+                        <label for="telefone" class="labelNome">Telefone para contato: </label>
+                    </div>
+                    </br>
+
+                    <br>
+                    <div class="inputForm">
+                        <label for="Série: ">Série</label>
+                        <select name="Qual série está cursando: ">
+                        <option value="1"> 1° Série </option>
+                        <option value="2"> 2° Série </option>
+                        <option value="3"> 3° Série </option>
+                        <option value="4"> 4° Série </option>
+                        </select>
+                        
+                        <label for="Curso">Curso</label>
+                        <select name="Curso: ">
+                            <option value="InfoInt"> Informática - Integrado </option>
+                            <option value="InfoInt"> Mineração - Integrado </option>
+                            <option value="InfoInt"> Informática - Subsequente </option>
+                            <option value="InfoInt"> Mineração - Subsequente </option>
+                        </select>
+                    </div>
+                    </br>
+
+                    <br>
+                    <label for="dataNasc"><b>Data de nascimento: </b></label>
+                    <input type="date" name="dataNasc" id="dataNasc" required>
+                    </br>
+                    <br>
+
+                    <br>
+                    <div class="inputForm">
+                        <label for="Cidade">Cidade em que reside: </label>
+                        <select name="Cidade:">
+                            <option value="Parelhas">Parelhas</option>
+                            <option value="Jardim do Seridó">Jardim do Seridó</option>
+                            <option value="Caicó">Caicó</option>
+                            <option value="Equador">Equador</option>
+                            <option value="Santana do Seridó">Santana do Seridó</option>
+                            <option value="Acari">Acari</option>
+                            <option value="Carnaúba dos Dantas">Carnaúba dos Dantas</option>
+                            <option value="Currais Novos">Currais Novos</option>
+                            <option value="Natal">Natal</option>
+                            <option value="Jampa">João Pessoa</option>
+                            <option value="Campina">Campina Grande</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </div>
+                    </br>
+                    <br>
+                    
+                    <br>
+                    <div class="inputForm">
+                        <input type="text" name="sala" id="sala" class="inputNome" required>
+                        <label for="sala" class="labelNome">Sala temática que irá participar: </label>
+                    </div>
+                    </br>
+                    
+                    <br>
+                    <div class="inputForm">   
+                        <label for="dias">Em quais dias você irá participar? </label>
+                        <br>
+                        <input type="checkbox" id="dias" name="dias" value="Dia 1" required/>
+                        <label for="dias">Dia 1</label>
+                        <br>
+                        <input type="checkbox" id="dias" name="dias" value="Dia 2" required/>
+                        <label for="dias">Dia 2</label>
+                        <br>
+                        <input type="checkbox" id="dias" name="dias" value="Dia 3" required/>
+                        <label for="dias">Dia 3</label>
+                        <br>
+                        <input type="checkbox" id="dias" name="dias" value="Dia 4" required/>
+                        <label for="dias">Dia 4</label>
+                        <br>
+                        <input type="checkbox" id="dias" name="dias" value="Dia 5" required/>
+                        <label for="dias">Dia 5</label>
+                        <br>
+                        <input type="checkbox" value="Todos os dias" required/>
+                        <label for="dias">Todos os dias</label>
+                    </div>
+                    </br>
+
+                    <br>
+                    <div class="confirm">
+                        <input type="submit" value="Inscrever-se" id="submit"/>
+                        </br>
+                    </div>
+                    <br>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
